@@ -1,6 +1,7 @@
 const express = require( 'express' );
-const app = express();
 const port = process.env.PORT || 3000;
+const app = express();
+
 
 const begin = ( char ) => { return char === "(" };
 const end = ( char ) => { return char === ")" };
