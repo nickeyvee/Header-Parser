@@ -17,7 +17,7 @@
     "url": "https://github.com/nickeyvee/Header-Parser/issues"
   },
   "homepage": "https://github.com/nickeyvee/Header-Parser#readme",
-  "devDependencies": {
+  "dependencies": {
     "express": "^4.15.2"
   }
 }
