@@ -1,0 +1,22 @@
+{
+  "name": "header-parser",
+  "version": "1.0.0",
+  "description": "",
+  "main": "header-parser.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nickeyvee/Header-Parser.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nickeyvee/Header-Parser/issues"
+  },
+  "homepage": "https://github.com/nickeyvee/Header-Parser#readme",
+  "devDependencies": {
+    "express": "^4.15.2"
+  }
+}
