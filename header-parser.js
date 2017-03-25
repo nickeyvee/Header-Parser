@@ -2,7 +2,6 @@ const express = require( 'express' );
 const port = process.env.PORT || 3000;
 const app = express();
 
-
 const begin = ( char ) => { return char === "(" };
 const end = ( char ) => { return char === ")" };
 
@@ -17,6 +16,8 @@ app.get( "/" , ( request, response ) => {
   const ipaddress = request.headers.host;
   const language = request.headers["accept-language"].split(",")[0];
   const software = userAgent.slice( begin_index + 1, end_index ).join("");
+
+  console.log( IP );
 
 
   response.send( JSON.stringify({
